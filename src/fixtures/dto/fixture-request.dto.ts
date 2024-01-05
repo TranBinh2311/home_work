@@ -3,7 +3,7 @@ import { ApiProperty, IntersectionType } from '@nestjs/swagger';
 import { PaginationDTO } from './pagination.dto';
 import { FilterDateDTO } from './filter-date.dto';
 
-enum OrderByEnum {
+export enum OrderByEnum {
   ASC = 'ASC',
   DESC = 'DESC',
 }
@@ -20,5 +20,5 @@ export class FixtureRequestDTO extends IntersectionType(
   })
   @IsOptional()
   @IsEnum(OrderByEnum)
-  orderBy: OrderByEnum = OrderByEnum.ASC;
+  orderBy?: OrderByEnum = OrderByEnum.ASC;
 }

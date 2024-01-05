@@ -4,7 +4,7 @@ import { Fixture } from './entities/fixture.entity';
 import { Repository } from 'typeorm';
 import { FixtureRequestDTO } from './dto/fixture-request.dto';
 import { ApiResponse } from './dto/api-response.dto';
-import { PaginationService } from 'src/common/pagination/pagination.service';
+import { PaginationService } from './pagination.service';
 
 @Injectable()
 export class FixturesService {

@@ -3,7 +3,7 @@ import {
   DEFAULT_START_PAGE,
   PAGE_KEY,
   PAGE_SIZE,
-} from 'src/constant/default-variable';
+} from './constant/default-variable';
 
 @Injectable()
 export class PaginationService {
