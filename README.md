@@ -9,12 +9,15 @@ How to run on your local?
 clone source code
 
 cd to source code
+docker compose up -d
 
 npm install
-
-docker compose up -d
+npm run start:dev
 
 access to localhost:5000/api
 
 Run UT
 npm run test
+
+Run IT
+npm run test:e2e

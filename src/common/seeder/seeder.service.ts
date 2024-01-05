@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Fixture } from 'src/fixtures/entities/fixture.entity';
-import { Team } from 'src/fixtures/entities/team.entity';
-import { Tournament } from 'src/fixtures/entities/tournament.entity';
+import { Fixture } from '../../fixtures/entities/fixture.entity';
+import { Team } from '../../fixtures/entities/team.entity';
+import { Tournament } from '../../fixtures/entities/tournament.entity';
 import { Repository } from 'typeorm';
 
 @Injectable()
