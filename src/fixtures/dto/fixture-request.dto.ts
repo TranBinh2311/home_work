@@ -1,6 +1,5 @@
 import { IsEnum, IsOptional } from 'class-validator';
-import { ApiProperty } from '@nestjs/swagger';
-import { IntersectionType } from '@nestjs/mapped-types';
+import { ApiProperty, IntersectionType } from '@nestjs/swagger';
 import { PaginationDTO } from './pagination.dto';
 import { FilterDateDTO } from './filter-date.dto';
 
