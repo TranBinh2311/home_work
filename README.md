@@ -2,7 +2,7 @@ Database design:
 https://drive.google.com/file/d/1WREHrWHHIvEPkvShPfwdx9NF0yqY2wle/view?usp=sharing
 
 api and swagger(document):
-http://18.214.146.54:5000/api
+http://34.199.163.170:5000/api
 
 How to run on your local?
 
